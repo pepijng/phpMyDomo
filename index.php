@@ -69,8 +69,8 @@ phpMyDomo don't aim to replace the cool domotic's software you're currently usin
       </section>
     </div>
     <footer>
-      <p>Project maintained by <a href="/github/">phpMyDomo</a></p>
-      <p>Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+      <p>Downloads: <b><? echo file_get_contents(dirname(__FILE__)."/cache/downloads.txt"); ?></b></p>
+      <p>Theme by <a href="https://github.com/orderedlist" target="_blank">orderedlist</a></p>
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
